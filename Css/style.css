@@ -1,200 +1,46 @@
-
-
-
-
-*{
-    padding: 0;
-    margin: 0%;
-    box-sizing: border-box;
-}
 body{
-    height: 3000px;
-}
-.header{
-    background-color: black;
-    width: 100%;
-    height: 50px;
-}
-.logo{
-    margin-left: 50px;
-}
-.btn-head{
-    float: right;
-    margin-right: 50px;
-    margin-top: 10px;
-}
-.buy{
-    padding: 6px 20px ;
-    border-radius: 8px;
-background-color: rgb(101, 101, 236);
-color: aliceblue;
-}
-.buy:hover{
-    background-color:rgb(66, 66, 255);
-}
-/* //////////////////////////////////////////////////////////////////////////////////// */
-.home-contanier{
-    width: 85%;
-    height: 170px;
-    margin: auto;
-}
-.parent-home{
-     width: 100%;
-     height: 100%;
-     overflow: auto;
-}
-.icon-home{
-    color: rgb(252, 252, 252);
-    font-size: 20px;
-    float: right;
-    margin-top: -80px;
-}
-.icon-home a i{
-    width: 50px;
-    height: 50px;
-    color: aliceblue;
-    background-color: rgb(0, 140, 255);
-    border-radius: 50%;
-    padding: 15px 16px;
-}
-a:hover i {
-    background-color: rgb(158, 156, 156);
-}
-
-.home-list{
-    width: 100%;
-    height: 40px;
-    background-color: rgb(24, 24, 24);
-    border-radius: 5px;
-}
-.home-list button{
-    padding: 9px 30px ;
-    margin-left: 5px;
-    font-size: 18px;
-    text-transform: uppercase;
-    color: aliceblue;
-    background-color: rgb(24, 24, 24);
-    border: none;
-    border-radius: 5px;
-}
-
-button:hover {
-    background-color: rgba(148, 148, 148, 0.301);
-    color: aliceblue;
-}
-.email{
-    float: right;
-    color: aliceblue;
-}
-.email:hover{
-    background-color:  rgb(24, 24, 24);
-    opacity: 1;
-    color: rgb(160, 160, 160);
-}
-
-.e1{
-    padding: 10px 0px;
-    margin-right: -25px;
-}
-/* ////////////////////////////////////////////////////////////////////////// */
-.prent-pre{
-    width: 100%;
-    height: 500px;
-}
-
-.present{
-    background-image: url(../images/home1.jpg);
-    background-size: cover;
-    width: 100%;
-    height: 100%;
-    background-attachment: fixed;
+    height: 2700px;
     position: relative;
 }
-.son-pres{
-    width: 600px;
-    height: 250x;
-    color: rgb(0, 0, 0);
+
+
+.container-fluid{
+    background-image: url(../images/home1.jpg);
+    background-size: cover;
     position: absolute;
-    background-color: rgb(184, 166, 166);
+    z-index: -1;
+}
+
+.nav-1{
+    position: absolute;
+    z-index: 100;
+    top: 0;
+ margin-left: 80px;
+}
+
+.part2{
+    /* position: absolute; */
+    margin-top: -80px;
+}
+
+.ph1{
+    background-image: url(../images/p1.jpg);
+    background-size: cover;
+}
+
+.ph2{
+    background-image: url(../images/p2.jpg);
+    background-size: cover;
+}
+
+.oline{
+    line-height: 15px;
+    font-weight: bold;
+}
+
+/* .you{
     top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    text-align: center;
-}
-/* ///////////////////////////////////////////////////// */
-.contanier-green{
-    width: 100%;
-    height: 700px;
-background-image: url(../images/green.jpeg);
-background-size: cover;
-}
-
-.parent-1{
-    width: 80%;
-    height: 480px;
-    margin: auto;
-    overflow: auto;
-
-}
-.about{
-    width: 50%;
-    height: 460px;
-    float: left;
-    margin-top: 20px;
-}
-h2{
-    font-size: 50px;
-} 
-
-p{
-    font-size: 20px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-.btn1{
-    padding: 10px 30px;
-    color: white;
-    background-color: rgb(74, 156, 53);
-    border: none;
-    border-radius: 3px;
-}
-.btn1:hover{
-    background-color: black;
-}
-.p1{
-    width: 100%;
-    height: 30%;
-    margin-top: 10px;
-}
-.twit1{
-    font-size: 50px;
-    color: rgb(117, 241, 92);
-}
-span{
-  font-size: 50px;
-}
-sub{
-    font-size: 30px;
-}
-/* ///////////////////////////////////////////////////// */
-.p2{
-    height: 170px;
-    width: 80%;
-    margin: auto;
-    overflow:auto ;
-}
-
-.d1{
-    width:30% ;
-    height: 170px;
-    background-color: rgb(83, 177, 54);
-    padding: 20px 20px;
-    float: left;
-    margin-left: 20px;
-    margin-top: -10px;
-}
-.h-d1{
-    font-size: 25px;
-}
-.d1-sp{
-    font-size: 20px;
-}
+    left: 30%;
+    transform: translate(-50,-50);
+    margin-left: ;
+} */
